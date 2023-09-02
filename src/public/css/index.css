@@ -1,0 +1,45 @@
+.title {
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+
+.form {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form__group {
+    width: 90%;
+    height: 2vw;
+}
+
+.form__label {
+    width: 10vw;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.form__content {
+    width: 5vw;
+    text-align: left;
+}
+
+.form__content-surname , .form__content-givenname {
+    height: 1vw;
+    width: 5vw;
+}
+
+.form__annotation {
+    color: gray;
+    text-align: left;
+    vertical-align: top;
+    height: 2vw;
+}
+
+.form__annotation-surname , .form__annotation-givenname {
+    padding-top: 0.5vw;
+    padding-left: 0.5vw;
+}
