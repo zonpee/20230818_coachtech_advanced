@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 5vw auto;
+    border: solid 2px;
+    text-align: left;
+}
+
+
+th {
+    font-style: bold;
+}

@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+main {
+    top: 50%;
+}
+
+
+a {
+    line-height: 5vw;
+    text-decoration: none;
+    border-radius: 1px;
+    background: black;
+    color: white;
+}

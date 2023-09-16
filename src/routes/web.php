@@ -20,3 +20,8 @@ use App\Http\Controllers\ContactController;
 
 Route::get('/', [ContactController::class, 'index']);
 Route::get('/contact/confirm', [ContactController::class, 'confirm']);
+Route::post('/contact/complete', [ContactController::class, 'store']);
+Route::get('/manage', [ContactController::class, 'manage']);
+Route::get('/manage/list', [ContactController::class, 'manageList']);
+Route::post('/manage/list', [ContactController::class, 'manageList']);
+Route::post('/delete', [ContactController::class, 'delete']);
